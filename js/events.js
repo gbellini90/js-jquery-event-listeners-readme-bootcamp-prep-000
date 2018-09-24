@@ -15,10 +15,11 @@ function frameIt(){
 function pressIt(){
   $('input').on('keydown',function(key)
 {
-  if(key.which==)
+  if(key.which==71){
+    alert('You form is going to be submitted now.')
+                   }
 }
-
-)}
+                ) }
 
 
 
