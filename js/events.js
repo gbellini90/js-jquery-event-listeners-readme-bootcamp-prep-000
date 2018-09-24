@@ -16,17 +16,16 @@ function pressIt(){
   $('input').on('keydown',function(key)
 {
   if(key.which==71){
-    alert('You form is going to be submitted now.')
+    alert('Letter G!')
                    }
 }
                 ) }
 
 function submitIt(){
-  $(pressIt('alert').on('submit',function()
+  $('form').on('submit',function()
   {
-    
+    alert("Your form is going to be submitted now.")
   }
-  )
   )
 }
 
