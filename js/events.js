@@ -10,7 +10,7 @@ function getIt()
 function frameIt(){
  $('img').on('load',function(){
    $.addClass('tasty')
-   $('tasty').css
+   $('tasty').css('border','red')
  }) 
   
 }
