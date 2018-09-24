@@ -1,10 +1,8 @@
 function getIt()
-{$('p').on('click',function
-()
-  {
-  alert('Hey!')
+{$('p').on('click',function()
+  {alert('Hey!')
   }
-)
+          )
 }
 
 function frameIt(){
@@ -12,10 +10,11 @@ function frameIt(){
    $('img').addClass('tasty')
    $('tasty').css('border','2px red')
  }) 
-  
 }
 
-
+function pressIt(){
+  $('input')
+}
 
 
 
