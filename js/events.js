@@ -22,7 +22,12 @@ function pressIt(){
                 ) }
 
 function submitIt(){
-  $()
+  $(pressIt('alert').on('submit',function()
+  {
+    
+  }
+  )
+  )
 }
 
 
